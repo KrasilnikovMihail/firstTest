@@ -1,0 +1,5 @@
+Фича: C:\project\jenkins\firstTest\features\test.feature
+0% 
+	Сценарий: Проверка создания номенклатуры в ERP
+Файлы отчетов Allure-report записаны в каталог $workspaceRoot/build/out/allure
+Файл отчета jUnit-report (C:\project\jenkins\firstTest\build\out\bdd-junitreport\junit.xml) записан.

@@ -1,0 +1,281 @@
+{
+	"uuid": "fa397d2e-2fec-4f27-819f-ef441a7a4af3",
+	"historyId": "test.Проверка создания номенклатуры в ERP",
+	"name": "Проверка создания номенклатуры в ERP",
+	"fullName": null,
+	"start": 1559910828120,
+	"stop": 1559910845118,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "{ВнешняяОбработка.bddRunner.Форма.УправляемаяФорма.Форма(2499)}: Элемента формы с заголовком <ВидНоменклатуры> не найдено.\n\nTechnical details:\n        FileName: C:\\project\\jenkins\\firstTest\\tools\\add\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ProcedureName: ВПолеЯВвожуТекст\n        VanessaVersion: ver 6.0.0\n        PlatformVersion: 8.3.13.1648\n        TestManagerCompatibilityMode : Версия8_3_12",
+		"trace": ""
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда я подключаю TestClient \"ERP\" логин \"Администратор (ОрловАВ)\" пароль \"\"",
+			"start": 1559910828152,
+			"stop": 1559910840604,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ERP"
+				},
+				{
+					"name": "Парам2",
+					"value": "Администратор (ОрловАВ)"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'Номенклатура'",
+			"start": 1559910840604,
+			"stop": 1559910843101,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НСИ и администрирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура'",
+			"start": 1559910843101,
+			"stop": 1559910843201,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СписокРасширенныйПоискНоменклатураСоздать'",
+			"start": 1559910843201,
+			"stop": 1559910843264,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокРасширенныйПоискНоменклатураСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура (создание)'",
+			"start": 1559910843265,
+			"stop": 1559910844433,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'ВидНоменклатуры' я ввожу текст 'Продукция'",
+			"start": 1559910844433,
+			"stop": 1559910845117,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "{ВнешняяОбработка.bddRunner.Форма.УправляемаяФорма.Форма(2499)}: Элемента формы с заголовком <ВидНоменклатуры> не найдено.\n\nTechnical details:\n        FileName: C:\\project\\jenkins\\firstTest\\tools\\add\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ProcedureName: ВПолеЯВвожуТекст\n        VanessaVersion: ver 6.0.0\n        PlatformVersion: 8.3.13.1648\n        TestManagerCompatibilityMode : Версия8_3_12",
+				"trace": ""
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидНоменклатуры"
+				},
+				{
+					"name": "Парам2",
+					"value": "Продукция"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Рабочее наименование' я ввожу текст 'Тестовая номенклатура'",
+			"start": 1559910845117,
+			"stop": 1559910845117,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рабочее наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовая номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Единица хранения' я ввожу текст 'кг'",
+			"start": 1559910845118,
+			"stop": 1559910845118,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Единица хранения"
+				},
+				{
+					"name": "Парам2",
+					"value": "кг"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку 'Записать и закрыть'",
+			"start": 1559910845118,
+			"stop": 1559910845118,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Записать и закрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Номенклатура (создание) *' в течение 20 секунд",
+			"start": 1559910845118,
+			"stop": 1559910845118,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "Microsoft Windows 8 version 6.2  (Build 9200)"
+		},
+		{
+			"name": "feature",
+			"value": "test"
+		},
+		{
+			"name": "story",
+			"value": " Первоначальная настройка и заполнение БД"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "screenshot",
+			"source": "53800afe-0107-428f-92ac-9b4f53068d4c-attachment.png",
+			"type": "image/png"
+		}
+	],
+	"description": null
+}

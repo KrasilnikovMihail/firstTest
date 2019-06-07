@@ -1,0 +1,281 @@
+{
+	"uuid": "0a8c012f-7d30-4ac1-a2e8-2d7fc3a7bba5",
+	"historyId": "test.Проверка создания номенклатуры в ERP",
+	"name": "Проверка создания номенклатуры в ERP",
+	"fullName": null,
+	"start": 1559912895502,
+	"stop": 1559912908585,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4680)}: Не подключен Testclient.\n{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4675)}: Ошибка при вызове метода контекста (ПолучитьКомандныйИнтерфейс): Недоступный пользователю элемент управления не может выполнять интерактивные действия. ([КОПИЯ] Демонстрационная база / 1С:ERP Управление предприятием 2)\n\nТехнические данные:\n        ИмяФайла: C:\\project\\jenkins\\firstTest\\tools\\add\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ВерсияVanessaADD: ver 6.0.0\n        ВерсияПлатформы: 8.3.13.1648\n        РежимСовместимостиTestManager: Версия8_3_12",
+		"trace": ""
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда я подключаю TestClient \"ERP\" логин \"Администратор (ОрловАВ)\" пароль \"\"",
+			"start": 1559912895532,
+			"stop": 1559912907529,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ERP"
+				},
+				{
+					"name": "Парам2",
+					"value": "Администратор (ОрловАВ)"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'Номенклатура'",
+			"start": 1559912907529,
+			"stop": 1559912908585,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4680)}: Не подключен Testclient.\n{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4675)}: Ошибка при вызове метода контекста (ПолучитьКомандныйИнтерфейс): Недоступный пользователю элемент управления не может выполнять интерактивные действия. ([КОПИЯ] Демонстрационная база / 1С:ERP Управление предприятием 2)\n\nТехнические данные:\n        ИмяФайла: C:\\project\\jenkins\\firstTest\\tools\\add\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ВерсияVanessaADD: ver 6.0.0\n        ВерсияПлатформы: 8.3.13.1648\n        РежимСовместимостиTestManager: Версия8_3_12",
+				"trace": ""
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НСИ и администрирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СписокРасширенныйПоискНоменклатураСоздать'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокРасширенныйПоискНоменклатураСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура (создание)'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ВидНоменклатурыОбязательныеПоля\" я выбираю по строке 'Продукция'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидНоменклатурыОбязательныеПоля"
+				},
+				{
+					"name": "Парам2",
+					"value": "Продукция"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Рабочее наименование' я ввожу текст 'Тестовая номенклатура'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рабочее наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовая номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Единица хранения' я ввожу текст 'кг'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Единица хранения"
+				},
+				{
+					"name": "Парам2",
+					"value": "кг"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку 'Записать и закрыть'",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Записать и закрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Номенклатура (создание) *' в течение 20 секунд",
+			"start": 1559912908585,
+			"stop": 1559912908585,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "Microsoft Windows 8 version 6.2  (Build 9200)"
+		},
+		{
+			"name": "feature",
+			"value": "test"
+		},
+		{
+			"name": "story",
+			"value": " Первоначальная настройка и заполнение БД"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "screenshot",
+			"source": "26df1ab0-ad1b-4cca-ab1f-3889f4073c67-attachment.png",
+			"type": "image/png"
+		}
+	],
+	"description": null
+}

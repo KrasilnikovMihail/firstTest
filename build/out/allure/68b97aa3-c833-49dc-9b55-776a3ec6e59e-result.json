@@ -1,0 +1,271 @@
+{
+	"uuid": "68b97aa3-c833-49dc-9b55-776a3ec6e59e",
+	"historyId": "test.Проверка создания номенклатуры в ERP",
+	"name": "Проверка создания номенклатуры в ERP",
+	"fullName": null,
+	"start": 1559911675358,
+	"stop": 1559911698002,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда я подключаю TestClient \"ERP\" логин \"Администратор (ОрловАВ)\" пароль \"\"",
+			"start": 1559911675380,
+			"stop": 1559911687734,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ERP"
+				},
+				{
+					"name": "Парам2",
+					"value": "Администратор (ОрловАВ)"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'Номенклатура'",
+			"start": 1559911687735,
+			"stop": 1559911691181,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НСИ и администрирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура'",
+			"start": 1559911691182,
+			"stop": 1559911691301,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СписокРасширенныйПоискНоменклатураСоздать'",
+			"start": 1559911691301,
+			"stop": 1559911691359,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокРасширенныйПоискНоменклатураСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура (создание)'",
+			"start": 1559911691359,
+			"stop": 1559911693368,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ВидНоменклатурыОбязательныеПоля\" я выбираю по строке 'Продукция'",
+			"start": 1559911693368,
+			"stop": 1559911694005,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидНоменклатурыОбязательныеПоля"
+				},
+				{
+					"name": "Парам2",
+					"value": "Продукция"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Рабочее наименование' я ввожу текст 'Тестовая номенклатура'",
+			"start": 1559911694005,
+			"stop": 1559911694919,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рабочее наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовая номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Единица хранения' я ввожу текст 'кг'",
+			"start": 1559911694920,
+			"stop": 1559911695273,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Единица хранения"
+				},
+				{
+					"name": "Парам2",
+					"value": "кг"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку 'Записать и закрыть'",
+			"start": 1559911695273,
+			"stop": 1559911696131,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Записать и закрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Номенклатура (создание) *' в течение 20 секунд",
+			"start": 1559911696132,
+			"stop": 1559911698002,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "Microsoft Windows 8 version 6.2  (Build 9200)"
+		},
+		{
+			"name": "feature",
+			"value": "test"
+		},
+		{
+			"name": "story",
+			"value": " Первоначальная настройка и заполнение БД"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

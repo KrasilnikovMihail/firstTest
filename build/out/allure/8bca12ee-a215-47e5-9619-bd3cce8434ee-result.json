@@ -1,0 +1,257 @@
+{
+	"uuid": "8bca12ee-a215-47e5-9619-bd3cce8434ee",
+	"historyId": "test.Проверка создания номенклатуры в ERP",
+	"name": "Проверка создания номенклатуры в ERP",
+	"fullName": null,
+	"start": 1559909356988,
+	"stop": 1559909381036,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4703)}: Кнопка панели разделов <НСИ и администрирование> не найдена.\n\nTechnical details:\n        FileName: C:\\project\\jenkins\\firstTest\\tools\\add\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ProcedureName: ВКомандномИнтерфейсеЯВыбираю\n        VanessaVersion: ver 6.0.0\n        PlatformVersion: 8.3.13.1648\n        TestManagerCompatibilityMode : Версия8_3_12",
+		"trace": ""
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Когда я подключаю TestClient \"ERP\" логин \"Administrator\" пароль \"\"",
+			"start": 1559909357010,
+			"stop": 1559909369593,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ERP"
+				},
+				{
+					"name": "Парам2",
+					"value": "Administrator"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'Номенклатура'",
+			"start": 1559909369594,
+			"stop": 1559909381036,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4703)}: Кнопка панели разделов <НСИ и администрирование> не найдена.\n\nTechnical details:\n        FileName: C:\\project\\jenkins\\firstTest\\tools\\add\\features\\Libraries\\UITestRunner\\step_definitions\\РаботаСИнтерфейсом.epf\n        ProcedureName: ВКомандномИнтерфейсеЯВыбираю\n        VanessaVersion: ver 6.0.0\n        PlatformVersion: 8.3.13.1648\n        TestManagerCompatibilityMode : Версия8_3_12",
+				"trace": ""
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НСИ и администрирование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура'",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СписокРасширенныйПоискНоменклатураСоздать'",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокРасширенныйПоискНоменклатураСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура (создание)'",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Рабочее наименование' я ввожу текст 'Тестовая номенклатура'",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рабочее наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тестовая номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле 'Единица хранения' я ввожу текст 'кг'",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Единица хранения"
+				},
+				{
+					"name": "Парам2",
+					"value": "кг"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку 'Записать и закрыть'",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Записать и закрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Номенклатура (создание) *' в течение 20 секунд",
+			"start": 1559909381036,
+			"stop": 1559909381036,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": "20"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "Microsoft Windows 8 version 6.2  (Build 9200)"
+		},
+		{
+			"name": "feature",
+			"value": "test"
+		},
+		{
+			"name": "story",
+			"value": " Первоначальная настройка и заполнение БД"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "screenshot",
+			"source": "ca2e55dc-d47c-444c-aeb9-0d11f0a4134a-attachment.png",
+			"type": "image/png"
+		}
+	],
+	"description": null
+}
