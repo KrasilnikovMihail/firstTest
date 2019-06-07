@@ -1,0 +1,5 @@
+Ошибка при выполнении операции с информационной базой
+Ошибка СУБД:
+Microsoft SQL Server Native Client 11.0: Login failed for user '1CEnt'.
+HRESULT=80040E4D, SQLSrvr: SQLSTATE=28000, state=1, Severity=E, native=18456, line=1
+
