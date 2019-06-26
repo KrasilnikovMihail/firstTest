@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="test" errors="0" skipped="0" tests="1" failures="1" time="13.083">
-		<testcase name="Проверка создания номенклатуры в ERP" classname="test" time="13.083">
-			<failure message="{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4680)}: Не подключен Testclient.
-{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(4675)}: Ошибка при вызове метода контекста (ПолучитьКомандныйИнтерфейс): Недоступный пользователю элемент управления не может выполнять интерактивные действия. ([КОПИЯ] Демонстрационная база / 1С:ERP Управление предприятием 2)
-
-Технические данные:
-        ИмяФайла: C:\project\jenkins\firstTest\tools\add\features\Libraries\UITestRunner\step_definitions\РаботаСИнтерфейсом.epf
-        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю
-        ВерсияVanessaADD: ver 6.0.0
-        ВерсияПлатформы: 8.3.13.1648
-        РежимСовместимостиTestManager: Версия8_3_12"/>
-		</testcase>
+	<testsuite name="test" errors="0" skipped="0" tests="1" failures="0" time="35.404">
+		<testcase name="Проверка создания номенклатуры в ERP" classname="test" time="35.404"/>
 	</testsuite>
 </testsuites>
