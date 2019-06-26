@@ -66,7 +66,7 @@ pipeline {
                 }
             }
         }
-        stage("Запуск") {
+        stage("Запуск дрочева") {
             steps {
                 timestamps {
                     script {
